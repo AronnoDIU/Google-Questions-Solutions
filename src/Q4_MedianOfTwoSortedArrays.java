@@ -24,7 +24,7 @@ public class Q4_MedianOfTwoSortedArrays {
             nums[k++] = nums2[j++];
         }
 
-        // Calculate median
+        // Calculate the median of nums after merging
         if (nums.length % 2 == 0) {
             return (nums[nums.length / 2 - 1] + nums[nums.length / 2]) / 2.0;
         } else {
